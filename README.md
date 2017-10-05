@@ -1,11 +1,11 @@
 # Section Week 5
 
-- **Fetching, Caching, Extracting, Repeat**
-    - [ ] Start with NYT Today's paper web page: http://www.nytimes.com/pages/todayspaper/index.html
-    - [ ] Extract all the "Front Page" news, including Title, Author(s), Date, Summary and Thumbnail. What data structure will you save it in? Class / Dictionary / List / List of Dictionaries?
-    - [ ] For each Front Page article, get (and cache) that article's web page, extract its related coverage of articles, and save its title, thumbnail, date, and link in a list
+### Part 1: Fetching, Caching, Extracting, Repeat
+- [ ] Start with NYT Today's paper web page: http://www.nytimes.com/pages/todayspaper/index.html
+- [ ] Extract all the "Front Page" news, including Title, Author(s), Date, Summary and Thumbnail. What data structure will you save it in? Class / Dictionary / List / List of Dictionaries?
+- [ ] For each Front Page article, get (and cache) that article's web page, extract its related coverage of articles, and save its title, thumbnail, date, and link in a list
 
-- **Make milestones and issues for project 3**
+### Part 2: Making Milestones and Issues for Project 3
     Carefully read through the `README.md` and the `# comments` in the code file, and break down what you have to do into milestones, issues and distinct tasks / sub-tasks
 
     - Part 0: `_________` [200 points]
@@ -60,14 +60,17 @@
             - [ ] `_________`
             - [ ] More?
 
-- **Want extra practice? But want it to be fun(ish)?** Try using BeautifulSoup on https://www.lingscars.com/ (please use caching! ProTip: Have a function that does this, which you can reuse in your assignment.)
-    - Extract the Menu
-    - Extract the names of all cars sold at Lings Cars, grouped by Brand Name (What data structure will you use?)
-    - Extract deals featured on home page
-        - Car's picture
-        - Name
-        - Description
-        - Type of Engine, Gearbox, Paint
-        - Rent per month
-        - Extract the number of visitors now and number of visitors today
-    - Having fun? Extract more information that you think is interesting.
+### Part 3: Some BeautifulSoup fun!
+
+Let's try using BeautifulSoup on https://www.lingscars.com/ (please use caching! ProTip: Have a function that does this, which you can reuse in your assignment.)
+
+- Extract the Menu
+- Extract the names of all cars sold at Lings Cars, grouped by Brand Name (What data structure will you use?)
+- Extract deals featured on home page
+    - Car's picture
+    - Name
+    - Description
+    - Type of Engine, Gearbox, Paint
+    - Rent per month
+    - Extract the number of visitors now and number of visitors today
+- Having fun? Extract more information that you think is interesting.
